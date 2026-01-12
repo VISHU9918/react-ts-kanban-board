@@ -84,3 +84,16 @@ body {
   border: none;
   cursor: pointer;
 }
+
+/* ---------- RESPONSIVE (MOBILE) ---------- */
+@media (max-width: 768px) {
+  .board {
+    grid-template-columns: 1fr; /* 1 column only */
+    gap: 16px;
+  }
+
+  .column {
+    width: 100%;
+  }
+}
+
